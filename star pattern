@@ -1,19 +1,20 @@
-import java.util.Scanner;
-public class SquareStar1 {
-	private static Scanner sc;
-	public static void main(String[] args) 
-	{
-		int side, i, j;
-		sc = new Scanner(System.in);
-		System.out.print(" Please Enter any Side of a Square : ");
-		side = sc.nextInt();				
-		for(i = 1; i <= side; i++)
-		{
-			for(j = 1; j <= side; j++)
-			{
-				System.out.print("*"); 
-			}
-			System.out.print("\n"); 
-		}	
-	}
+#include <stdio.h>
+int main()
+{
+    int i, j, N;
+    printf("Enter number of rows: ");
+    scanf("%d", &N);
+    for(i=1; i<=N; i++)
+    {
+        for(j=1; j<=N; j++)
+        {
+            printf("*");
+        }
+        printf("\n");
+    }
+   return 0;
+}
+
+
+    return 0;
 }
